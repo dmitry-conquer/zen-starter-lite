@@ -1,61 +1,128 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=4000&pause=500&color=05F7C3&center=true&vCenter=true&width=700&lines=Zen+Starter;Stop+worrying+about+setup,+just+code)](https://git.io/typing-svg)
+# 🚀 ZEN Starter
+
+<div style="background: linear-gradient(135deg, #3ecf8e 0%, #6366f1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 48px; font-weight: 800; margin: 20px 0;">
+
+**Build Faster, Ship Sooner**
 
 </div>
 
-A lightweight Vite starter kit for rapid static site markup. Pre-configured with TypeScript, SCSS, and modern UI components. Perfect for quick integration into any CMS.
+<div style="color: #c0c0c0; font-size: 18px; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass"/>
-  <img src="https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white" alt="PostCSS"/>
-  <img src="https://img.shields.io/badge/Handlebars.js-f0772b?style=for-the-badge&logo=handlebars.js&logoColor=white" alt="Handlebars"/>
-  <img src="https://img.shields.io/badge/Lenis-000000?style=for-the-badge&logo=lenis&logoColor=white" alt="Lenis"/>
-</p>
+Enterprise-grade Vite starter with TypeScript, SCSS, and professional tooling.
+
+</div>
+
+[![Version](https://img.shields.io/badge/Version-1.6.0-3ecf8e?style=for-the-badge)](https://github.com/dmitry-conquer/zen-starter)
+[![License](https://img.shields.io/badge/License-MIT-3ecf8e?style=for-the-badge)](https://github.com/dmitry-conquer/zen-starter/blob/main/LICENSE)
+
+[![More Details](https://img.shields.io/badge/🌐_More_Details-3ecf8e?style=for-the-badge&logo=netlify&logoColor=white)](https://zen-starter.netlify.app/)
+
+</div>
 
 ---
 
-## ✨ Features
+## ⚡ Quick Start
 
-- **Modern Tooling**: Vite, TypeScript, Handlebars, ESLint, Prettier, PostCSS, PurgeCSS
-- **SCSS Architecture**: Variables, mixins, helpers, modular component styles, centralized design tokens, utility classes
-- **Responsive & Adaptive**: Mobile-first, fluid typography, flexible breakpoints, media query helpers
-- **Ready Components**: Accordion, Tabs, Modal, Header, Marquee, Back-to-top, Theme Switcher
-- **Smooth UX**: Lenis-powered smooth scroll, optimized animations
-- **Accessibility**: ARIA attributes, focus states, keyboard navigation
-- **Theme Support**: Built-in dark/light mode with persistence
-- **Utility Services**: Storage, API, scroll, modal utilities
-- **Production Ready**: Optimized build, SEO-friendly, fast loading, multi-page support, easy CMS integration, strict type checking, ES modules
+```bash
+npm create zen@latest
+```
+
+---
+
+## 🎯 Core Features
+
+<table>
+<tr>
+<td width="50%">
+
+### ⚡ Lightning Fast
+Vite-powered HMR with instant feedback and optimized build pipeline.
+
+</td>
+<td width="50%">
+
+### 🔧 Type-Safe
+Full TypeScript integration with class-based component architecture.
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🎨 Professional Styling
+SCSS with PostCSS optimization and modern CSS features.
+
+</td>
+<td>
+
+### 🧩 Ready Components
+Production-ready interactive components with accessibility in mind.
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🚀 Performance
+Lenis smooth scrolling, code splitting, and critical CSS extraction.
+
+</td>
+<td>
+
+### 🛠️ Developer Experience
+ESLint + Prettier, HMR, and comprehensive error handling.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Build Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with HMR |
+| `npm run host` | Dev server with network access |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Check code quality |
+| `npm run lint:fix` | Auto-fix linting issues |
 
 ---
 
 ## 🚀 Getting Started
 
-The fastest way to start a new project:
-
+### 1. Create Project
 ```bash
-npm create zen@latest my-app
+npm create zen@latest
+cd my-project
 ```
 
-Or clone the repository and install dependencies manually:
-
+### 2. Install Dependencies
 ```bash
-git clone https://github.com/dmitroconquer/zen-starter.git
-cd zen-starter
 npm install
 ```
 
----
+### 3. Start Development
+```bash
+npm run dev
+```
 
-## 🛠️ Available Scripts
-
-- `npm run dev` — Start the development server
-- `npm run host` — Dev server on your local network
-- `npm run build` — Build for production
-- `npm run preview` — Preview production build
-- `npm run lint` — Lint TypeScript files
-- `npm run lint:fix` — Lint and auto-fix TypeScript files
+### 4. Open Browser
+Navigate to `http://localhost:5173`
 
 ---
+
+<div align="center">
+
+## 🌟 Star this repository if you found it helpful!
+
+[![GitHub stars](https://img.shields.io/github/stars/dmitry-conquer/zen-starter?style=social)](https://github.com/dmitry-conquer/zen-starter)
+[![GitHub forks](https://img.shields.io/github/forks/dmitry-conquer/zen-starter?style=social)](https://github.com/dmitry-conquer/zen-starter)
+
+**Built with ❤️ by [Dmytro Frolov](https://github.com/dmitry-conquer)**
+
+</div>
